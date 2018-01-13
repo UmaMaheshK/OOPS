@@ -1,0 +1,5 @@
+﻿1. Indexer Concept is object act as an array.
+2. Indexer an object to be indexed in the same way as an array.
+3. Indexer modifier can be private, public, protected or internal.
+4. The return type can be any valid C# types.
+5. Indexers in C# must have at least one parameter. Else the compiler will generate a compilation error.
