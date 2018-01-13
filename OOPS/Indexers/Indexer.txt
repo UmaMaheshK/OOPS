@@ -3,3 +3,16 @@
 3. Indexer modifier can be private, public, protected or internal.
 4. The return type can be any valid C# types.
 5. Indexers in C# must have at least one parameter. Else the compiler will generate a compilation error.
+
+-----------------
+Indexers Overview
+------------------
+
+Indexers enable objects to beindexed in a similar manner to arrays.
+A get accessor returns a value. A set accessor assigns a value.
+The this keyword is used to definetheindexer.
+The value keyword is used to definethevalue being assigned by the set indexer.
+Indexers do not haveto beindexed by an integer value; it is up to you how to definethespecific look-up
+mechanism.
+Indexers can be overloaded.
+Indexers can have morethan oneformal parameter, for example, when accessing a two-dimensional array.

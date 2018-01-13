@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPS.Indexers.OverloadedIndexers</StartupObject>
+    <StartupObject>OOPS.Indexers.IndexerExp7</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,11 @@
     <Compile Include="Indexers\IndexerExp1.cs" />
     <Compile Include="Indexers\IndexerExp2.cs" />
     <Compile Include="Indexers\IndexerExp3.cs" />
+    <Compile Include="Indexers\IndexerExp4.cs" />
+    <Compile Include="Indexers\IndexerExp5.cs" />
+    <Compile Include="Indexers\IndexerExp6.cs" />
+    <Compile Include="Indexers\IndexerExp7.cs" />
+    <Compile Include="Indexers\IndexerExp8.cs" />
     <Compile Include="Indexers\OverloadedIndexers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
