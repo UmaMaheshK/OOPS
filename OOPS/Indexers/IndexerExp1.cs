@@ -21,11 +21,7 @@ namespace OOPS.Indexers
             }
 
             public void AllDays()
-            {
-                //for (int i = 0; i < dayNames.Length; i++)
-                //{
-                //    Console.WriteLine("dayNames[{0}] = {1}", i, dayNames[i]);
-                //}
+            {               
                 int index = default(int);
                 Array.ForEach(dayNames, dady => Console.WriteLine("dayNames[{0}] = {1}", index++, dady));
             }
